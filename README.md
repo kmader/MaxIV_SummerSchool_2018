@@ -1,6 +1,6 @@
 # Mummering 3D Big Data Quantification 
 - [![Binder with JupyterLab](https://img.shields.io/badge/launch-jupyterlab-red.svg)](http://mybinder.org/v2/gh/kmader/Mumm3d_BigDataQuantification/master?urlpath=lab) 
-- bit.ly/http://bit.ly/mumm3d
+- http://bit.ly/mumm3d
 
 The material for the Big Data and 3D analysis presentation for the Mummering workshop on the analysis of large 3D/4D datasets.
 
