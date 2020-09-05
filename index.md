@@ -1,37 +1,83 @@
-## Welcome to GitHub Pages
+# Mummering 3D Big Data Quantification 
+- [![Binder with JupyterLab](https://img.shields.io/badge/launch-jupyterlab-red.svg)](http://mybinder.org/v2/gh/kmader/Mumm3d_BigDataQuantification/master?urlpath=lab) 
+- http://bit.ly/mumm3d
 
-You can use the [editor on GitHub](https://github.com/kmader/Mumm3d_BigDataQuantification/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The material for the Big Data and 3D analysis presentation for the Mummering workshop on the analysis of large 3D/4D datasets.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Big Data
 
-### Markdown
+ - [Slides (static)](http://nbviewer.jupyter.org/format/slides/github/kmader/Mumm3d_BigDataQuantification/blob/master/Lectures/BigData.ipynb) [![slides](https://img.shields.io/badge/interactive-slides-green.svg)](http://mybinder.org/v2/gh/kmader/Mumm3d_BigDataQuantification/master?filepath=Lectures/BigData.ipynb) [Lecture Handout](http://nbviewer.jupyter.org/github/kmader/Mumm3d_BigDataQuantification/blob/master/Lectures/BigData.ipynb)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- [Applying Big Data Approaches to Tomography Data](https://www.kaggle.com/kmader/3d-image-analysis-using-dask)
 
-```markdown
-Syntax highlighted code block
+- Old Video Recordings: [Part 1](https://youtu.be/slqaMS1b2YQ) and [Part 2](https://youtu.be/cSCov4BXH1s)
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+# Supervised Analysis / Machine Learning (if time)
 
-1. Numbered
-2. List
+ - [Slides (static)](http://nbviewer.jupyter.org/format/slides/github/kmader/Quantitative-Big-Imaging-2018/blob/master/Lectures/05-SupervisedApproaches.ipynb) [![slides](https://img.shields.io/badge/interactive-slides-green.svg)](http://mybinder.org/v2/gh/kmader/quantitative-big-imaging-2018/master?filepath=Lectures/05-SupervisedApproaches.ipynb) [Lecture Handout](http://nbviewer.jupyter.org/github/kmader/Quantitative-Big-Imaging-2018/blob/master/Lectures/05-SupervisedApproaches.ipynb)
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+# Practical
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Filtering and Image enhancement
+ - [![imagetool](https://img.shields.io/badge/launch-image_enhancement_tool-yellow.svg)](http://mybinder.org/v2/gh/4Quant/MaxIV_SummerSchool_2018/master?urlpath=%2Fapps%2FExercises%2FImageEnhancementPlayground.ipynb)
 
-### Jekyll Themes
+## Fossils
+The fossils example shows fossil data prepared by Phil Donoghue from the University of Bristol and published in [Paleontology as The anatomy, taphonomy, taxonomy and systematic affinity of Markuelia: Early Cambrian to Early Ordovician scalidophorans](http://onlinelibrary.wiley.com/doi/10.1111/j.1475-4983.2010.01006.x/abstract)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kmader/Mumm3d_BigDataQuantification/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Dataset
+- Small Fossils - https://www.kaggle.com/kmader/qbi-image-segmentation
+- Odd Couple - https://www.kaggle.com/kmader/thrinaxodon-and-broomistega-3d-ct
 
-### Support or Contact
+### Notebooks
+- Viewing https://www.kaggle.com/kmader/teeth-fossil-viewing
+- Viewing Couple https://www.kaggle.com/kmader/odd-couple-overview
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Battery Analysis
+
+The battery example comes from the group of Vanessa Woods from ETH Zurich and is published in [X‐Ray Tomography of Porous, Transition Metal Oxide Based Lithium Ion Battery Electrodes](https://onlinelibrary.wiley.com/doi/full/10.1002/aenm.201200932)
+
+### Dataset
+https://www.kaggle.com/kmader/battery-3d-images
+
+### Notebooks
+- Viewing https://www.kaggle.com/kmader/nmc-battery-3d-overview
+- Segmentation / Watershed https://www.kaggle.com/kmader/battery-watershed-overview
+- Texture Analysis https://www.kaggle.com/kmader/texture-to-detect-cracked-granules
+- Parallel and Distributed Analysis https://www.kaggle.com/kmader/3d-image-analysis-using-dask
+
+## Foam analysis
+These are datasets of cellular foam materials (water, aluminum) where the goal is to identify the distinct bubbles or cells in the foam.
+### Datasets
+- Geology: https://github.com/kmader/conduit_analysis
+- Aluminum: https://www.kaggle.com/rajmund/alufoam98 https://www.kaggle.com/rajmund/alufoam98t1
+- Water Foams: https://www.kaggle.com/4quant/simplefoam
+
+## Corroding Paint
+### Dataset
+- https://www.kaggle.com/4quant/painttomography
+
+
+## Medical CT images
+### Datasets
+- Chest CT / Lungs - https://www.kaggle.com/kmader/finding-lungs-in-ct-data
+
+### Notebooks
+- Overview: https://www.kaggle.com/kmader/data-preview
+- Computer Vision Algorithm: https://www.kaggle.com/kmader/dsb-lung-segmentation-algorithm
+- Simple Neural Network: https://www.kaggle.com/kmader/simple-nn-with-keras
+- Lung U-Net Segmentation: https://www.kaggle.com/toregil/a-lung-u-net-in-keras
+
+
+## Hyperspectral Imaging
+### Dataset
+- Time-series https://www.kaggle.com/kmader/circadian-rhythm-in-the-brain
+
+
+# Bonus Datasets
+
+## Electron Microscopy
+https://www.kaggle.com/kmader/electron-microscopy-3d-segmentation
+## Bone Age with X-Rays
+https://www.kaggle.com/kmader/rsna-bone-age
