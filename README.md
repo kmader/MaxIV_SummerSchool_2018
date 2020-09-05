@@ -1,14 +1,16 @@
-# MaxIV SummerSchool 2018 [![Binder with JupyterLab](https://img.shields.io/badge/launch-jupyterlab-red.svg)](http://mybinder.org/v2/gh/4Quant/MaxIV_SummerSchool_2018/master?urlpath=lab) -bit.ly/max4school
+# Mummering 3D Big Data Quantification 
+- [![Binder with JupyterLab](https://img.shields.io/badge/launch-jupyterlab-red.svg)](http://mybinder.org/v2/gh/kmader/Mumm3d_BigDataQuantification/master?urlpath=lab) 
+- bit.ly/http://bit.ly/mumm3d
 
-The material for the Big Data and 3D analysis presentation for the MaxIV Summer School (https://www.maxiv.lu.se/2018-sr-summer-school_maxiv-chalmers/)
+The material for the Big Data and 3D analysis presentation for the Mummering workshop on the analysis of large 3D/4D datasets.
 
 # Big Data
 
- - [Slides (static)](http://nbviewer.jupyter.org/format/slides/github/4Quant/MaxIV_SummerSchool_2018/blob/master/Lectures/BigData.ipynb) [![slides](https://img.shields.io/badge/interactive-slides-green.svg)](http://mybinder.org/v2/gh/4Quant/MaxIV_SummerSchool_2018/master?filepath=Lectures/BigData.ipynb) [Lecture Handout](http://nbviewer.jupyter.org/github/4Quant/MaxIV_SummerSchool_2018/blob/master/Lectures/BigData.ipynb)
+ - [Slides (static)](http://nbviewer.jupyter.org/format/slides/github/kmader/Mumm3d_BigDataQuantification/blob/master/Lectures/BigData.ipynb) [![slides](https://img.shields.io/badge/interactive-slides-green.svg)](http://mybinder.org/v2/gh/kmader/Mumm3d_BigDataQuantification/master?filepath=Lectures/BigData.ipynb) [Lecture Handout](http://nbviewer.jupyter.org/github/kmader/Mumm3d_BigDataQuantification/blob/master/Lectures/BigData.ipynb)
 
 - [Applying Big Data Approaches to Tomography Data](https://www.kaggle.com/kmader/3d-image-analysis-using-dask)
 
-- Video: [Part 1](https://youtu.be/slqaMS1b2YQ) and [Part 2](https://youtu.be/cSCov4BXH1s)
+- Old Video Recordings: [Part 1](https://youtu.be/slqaMS1b2YQ) and [Part 2](https://youtu.be/cSCov4BXH1s)
 
 
 # Supervised Analysis / Machine Learning (if time)
