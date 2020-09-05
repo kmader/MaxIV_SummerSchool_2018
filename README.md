@@ -49,9 +49,11 @@ https://www.kaggle.com/kmader/battery-3d-images
 
 ## Foam analysis
 These are datasets of cellular foam materials (water, aluminum) where the goal is to identify the distinct bubbles or cells in the foam.
+
 ### Datasets
 - Geology: https://github.com/kmader/conduit_analysis
 - Aluminum: https://www.kaggle.com/rajmund/alufoam98 https://www.kaggle.com/rajmund/alufoam98t1
+ - Time series on aluminum foams: https://www.kaggle.com/kmader/aluminum-preprocessing?
 - Water Foams: https://www.kaggle.com/4quant/simplefoam
 
 ## Corroding Paint
