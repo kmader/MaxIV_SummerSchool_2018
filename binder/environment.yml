@@ -1,4 +1,4 @@
-name: qbi2018
+name: mumm2020
 channels:
   - damianavila82
   - satra
@@ -14,37 +14,35 @@ dependencies:
   - numpy
   - matplotlib
   - pandas
-  - bokeh
-  - rise
   - notebook>=5.2.2
   - ipywidgets>=6.0.1
   - ipython>=6.2.1
   - pydot
   - h5py
-  - scikit-image<=0.20
-  - scikit-learn<=0.20
-  - pytorch<=0.3.0
+  - scikit-image
+  - scikit-learn
+  - pytorch
   - torchvision
-  - opencv3>=3.0
+  - opencv3
   - tensorflow
   - itk
   - SimpleITK
   - ipyvolume
   - ffmpeg
-  - jupyter_contrib_nbextensions
   - graphviz
   - python-graphviz
+  - pip
   - pip:
+    - bokeh
     - keras==2.1.3
     - git+https://github.com/keras-team/keras-contrib
-    - lime==0.1.1.29
-    - plotly==2.1.0
-    - seaborn==0.7.1
-    - tpot==0.9.0
+    - plotly
+    - seaborn
+    - tpot
     - pydot
-    - dask_ndfilters==0.1.2
-    - dask_ndmeasure==0.1.1
-    - dask_ndmorph==0.1.1
+    - dask_ndfilters
+    - dask_ndmeasure
+    - dask_ndmorph
     - distributed
     - psutil
     - kaggle
@@ -52,4 +50,6 @@ dependencies:
     - cloudpickle
     - autopep8
     - webcolors
+    - jupyter_contrib_nbextensions
     - itkwidgets
+    - rise
