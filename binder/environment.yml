@@ -38,6 +38,8 @@ dependencies:
     - git+https://github.com/keras-team/keras-contrib
     - plotly
     - seaborn
+    - tqdm
+    - fsspec>=0.3.3
     - tpot
     - pydot
     - dask_ndfilters
